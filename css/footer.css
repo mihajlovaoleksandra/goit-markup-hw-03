@@ -1,17 +1,16 @@
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 
 .footer .logo {
-  color: #4d5ae5;
-  line-height: 1.33;
-}
-
-.footer .logo span {
+  display: inline-block;
   color: #f4f4fd;
+  margin-bottom: 16px;
 }
 
 .footer-text {
+  max-width: 264px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;

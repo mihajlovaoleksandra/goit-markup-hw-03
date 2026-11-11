@@ -1,23 +1,32 @@
 .hero {
   background-color: #2e2f42;
-  text-align: center;
+  padding: 188px 0;
 }
 
 .hero-title {
-  color: #ffffff;
+  max-width: 496px;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
+  color: #ffffff;
+  margin: 0 auto 48px;
 }
 
 .hero-button {
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  margin: 0 auto;
+  border: none;
+  border-radius: 4px;
+  background-color: #4d5ae5;
+  color: #ffffff;
   font-family: inherit;
-  font-weight: 500;
   font-size: 16px;
+  font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #ffffff;
-  background-color: #4d5ae5;
   cursor: pointer;
 }
 
