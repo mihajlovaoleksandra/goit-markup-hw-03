@@ -32,11 +32,11 @@ img {
 
 /* Container */
 .container {
-  width: 1158px;
+  width: 100%;
+  max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
 }
-
 /* Section */
 .section {
   padding: 120px 0;
